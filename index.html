@@ -40,13 +40,15 @@ width: 100% !important;
 color: #FFF;
 font-family: 'Lato', sans-serif;
 text-transform: uppercase;
+text-align:center;
 }
 
 .iamCol {
-text-align: right;
-float: left;
-font-weight: 300;
-font-size:30pt;
+	text-align: right;
+	float: left;
+	font-weight: 300;
+	font-size:30pt;
+	color:#fff;
 }
 .iamCol p:nth-child(2) { margin-top: -20pt !important; }
 .slideCol {
@@ -95,8 +97,8 @@ overflow: hidden;
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) and (max-width : 765px) {
 #textSlider.row { margin-right: 0px !important; margin-left: 0px !important; }
-.iamCol { text-align: center; font-size:25pt; }
-.iamCol p { display: inline !important; }
+.iamCol { text-align: center; font-size:25pt;}
+.iamCol p { display: inline !important;}
 .slideCol { font-size: 38pt; text-align: center; margin-top: -20px; }
 }
 
@@ -111,7 +113,7 @@ overflow: hidden;
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) and (max-width : 1200px) {
 #textSlider.row { margin-right: 0px !important; margin-left: 0px !important; }
-.iamCol { text-align: right; font-size:30pt; }
+.iamCol { text-align: right; font-size:30pt; color:#fff;}
 .slideCol { font-size: 55pt; text-align: left; }
 }</style></head><body>
 <!-- 
@@ -121,24 +123,24 @@ SEE THE ORIGINAL: http://codepen.io/PriscilaCunha/pen/XbqOWL
 YO SOLO LO COPIé PARA TRABAJAR MODIFICACIONES
 -->
 <div id="myPageContent" class="container-fluid">
-<section id="home">
-<div id="textSlider" class="row">
-<div class="col-xs-12 col-sm-12 col-md-3 col-lg-4 iamCol">
-<p>系统维护中</p>
-<p>别催我</p>
-</div>
-<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8 slideCol">
-<div class="scroller">
-<div class="inner">
-<p>搜搜我</p>
-<p>发现我</p>
-<p>看看我</p>
-<p>约约我</p>
-</div>
-</div>
-</div>
-</div>
-</section
+	<section id="home">
+	<div class="col-xs-12 col-sm-12 col-md-3 col-lg-4 iamCol">
+	<p>系统维护中</p>
+	<p>别催我...</p>
+	</div>
+	<div id="textSlider" class="row">
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8 slideCol">
+			<div class="scroller">
+				<div class="inner">
+					<p>搜搜我</p>
+					<p>发现我</p>
+					<p>约约我</p>
+					<p>了解我</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section
 </div>
 </body>
 </html>
